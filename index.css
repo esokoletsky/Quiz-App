@@ -1,0 +1,217 @@
+* {
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+body {
+  background-color: #050505;
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black 1px;
+  background-image: url("http://spaceengine.org/media/2016/05/scr00009.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 7%;
+  color: white;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0px 0px;
+
+}
+
+.score-count, .question-count {
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 75px;
+  margin-left: 15px;
+
+}
+
+.center-list {
+  text-align: center;
+  padding: 0;
+}
+
+.space-satelite {
+  height: auto;
+  width: 20%;
+  position: relative;
+  left: 10%;
+  top: 10%;
+  
+}
+
+
+.buttons-style {
+  font-size: 22px;
+  background-color: #163051;
+  border-radius: 7%;
+  font-weight: bold;
+  padding: 5px 15px 5px 15px;
+  color: #91BDE3;
+  border: 1px solid #9F7024;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 15px;
+  
+}
+
+.counters {
+  display:inline;
+  font-size: 80%;
+  padding:0px 10px;
+  list-style-type:none;
+  text-align: center;
+
+}
+
+.counters-locations {
+  position: relative;
+  margin: 5% auto;
+
+}
+
+form span {
+  margin-left:3px;
+}
+
+fieldset {
+  border-radius: 10px;
+}
+
+    input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -9px;
+        left: -1px;
+        position: relative;
+        background-color: white;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -9px;
+        left: -1px;
+        position: relative;
+        background-color: #c47d03;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 838px){
+    .counters {
+    font-size:85%;
+    margin-left:auto ;
+    margin-right:auto;
+    padding:0px 5px;
+    list-style: none;
+    display:inline-block;
+    }
+
+      .space-satelite {
+  height: auto;
+  width: 40%;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  top: inherit;
+  left: inherit;
+  display: block;
+
+    }
+}
+
+
+
+@media screen and (max-width: 726px){
+    .counters {
+    font-size:85%;
+    margin-left:auto ;
+    margin-right:auto;
+    padding:0px 0px;
+    list-style: none;
+    display:inline-block;
+    }
+}
+
+
+
+
+@media screen and (max-width: 572px) {
+  .counters {
+    font-size:85%;
+    display: inline-block;
+    }
+
+  .space-satelite {
+  height: auto;
+  width: 50%;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  top: inherit;
+  left: inherit;
+  display: block;
+
+  }
+
+.container {
+  width: 70%;
+  } 
+
+  
+}
+
+@media screen and (max-width: 434px) {
+  .counters {
+    font-size:75%;
+    margin-left:auto ;
+    margin-right:auto;
+    padding:0px 0px;
+    list-style: none;
+    display:inline-block;
+  }
+
+  h2 {
+    font-size:90%;
+  }
+
+  fieldset span {
+    font-size: 75%;
+  }
+
+
+
+
+}
+
+
