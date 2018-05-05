@@ -129,28 +129,28 @@ else {
         
           <li>
             <label>
-              <input value="${current.ans1}" class="" type="radio" name="choice" role="button" id="${current.ans1}" required>
-              <span>${current.ans1}</span>
+              <input value="${current.ans1}" =value="choice-1" type="radio" name="choice" aria-label="${current.ans1}" role="button" id="${current.ans1}" required>
+               <span>${current.ans1}</span>
             </label>
           </li>
           
           <li>
             <label>
-              <input value="${current.ans2}" class="" type="radio" name="choice" role="button" id="${current.ans2}" required>
+              <input value="${current.ans2}" value="choice-2" type="radio" name="choice" aria-label="${current.ans2}" role="button" id="${current.ans2}" required>
               <span>${current.ans2}</span>
             </label>
           </li>
           
           <li>
             <label>
-              <input  value="${current.ans3}" class="" type="radio" name="choice" role="button" id="${current.ans3}" required>
+              <input  value="${current.ans3}" value="choice-3"type="radio" name="choice" aria-label="${current.ans3}" role="button" id="${current.ans3}" required>
               <span>${current.ans3}</span>
             </label>
           </li>
           
           <li>
             <label>
-              <input value="${current.ans4}" class="" type="radio" name="choice" role="button" id="${current.ans4}" required>
+              <input value="${current.ans4}" value="choice-4"type="radio" name="choice" aria-label="${current.ans4}" role="button" id="${current.ans4}" required>
               <span>${current.ans4}</span>
             </label>
           </li>
